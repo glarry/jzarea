@@ -1,0 +1,7 @@
+
+{% load staticfiles %}
+
+{% for picture in all_picture %}
+  <img src="{{picture.image.url}}" />
+{% endfor %}
+
